@@ -9,7 +9,8 @@
 ```cpp [1|3|5]
 if (i=2) // Mettre un seul = dans les tests if
 
-if (i==2) // Oublier les parenthèses
+if i==2 // Oublier les parenthèses
+if (i==2) && (j==4) // Oublier les parenthèses
 
 if (i==2) then // Utiliser then
 ```
